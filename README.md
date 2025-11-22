@@ -20,3 +20,10 @@ The foundational concepts to building a fully functional RAG application:
   - <b>Model Integration:</b> Practice integrating open-source Large Language Models (LLMs) into the RAG workflow.
 
   - <b>Practical Application:</b> Build a functional, simple chatbot that uses the RAG pipeline to retrieve and synthesize relevant data for accurate, context-aware responses.
+
+##
+
+## 🖥 DEMO
+
+  - <b>[Simple Chatbot with LlamaIndex CoLab Notebook](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Build_a_Simple_Chatbot_with_LlamaIndex.ipynb)</b>
+    - <i>Review Demo</i>: [HERE](https://youtu.be/FFb6gzT8rfo)
