@@ -23,7 +23,9 @@ The foundational concepts to building a fully functional RAG application:
 
 ##
 
-## 🖥 DEMO
+## 🖥 DELIVERABLES
 
   - <b>[Simple Chatbot with LlamaIndex CoLab Notebook](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Build_a_Simple_Chatbot_with_LlamaIndex.ipynb)</b>
     - <i>Review Demo</i>: [HERE](https://youtu.be/FFb6gzT8rfo)
+    
+  - <b>[RAG Optimization: Implementing Chunking & Embeddings in LlamaIndex and Gemini](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Implementing_Chunking_and_Embeddings_in_LlamaIndex_and_Gemini.ipynb)
