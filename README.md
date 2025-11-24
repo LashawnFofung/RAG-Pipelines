@@ -29,3 +29,6 @@ The foundational concepts to building a fully functional RAG application:
     - <i>Review Demo</i>: [HERE](https://youtu.be/FFb6gzT8rfo)
     
   - <b>[RAG Optimization: Implementing Chunking & Embeddings in LlamaIndex and Gemini](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Implementing_Chunking_and_Embeddings_in_LlamaIndex_and_Gemini.ipynb)
+
+  - <b>[Advanced PDF Retrieval and Optimization with LlamaIndex](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Advanced_PDF_Retrieval_and_Optimization_with_LlamaIndex.ipynb)
+    - <i>Data:</i> [HERE]()
