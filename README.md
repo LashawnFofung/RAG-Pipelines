@@ -27,11 +27,11 @@ The foundational concepts to building a fully functional RAG application:
 
   - <b>[Simple Chatbot with LlamaIndex CoLab Notebook](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Build_a_Simple_Chatbot_with_LlamaIndex.ipynb)</b>
     - <i>Review Demo</i>: [HERE](https://youtu.be/FFb6gzT8rfo)
-    
+   <br><br> 
   - <b>[RAG Optimization: Implementing Chunking & Embeddings in LlamaIndex and Gemini](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Implementing_Chunking_and_Embeddings_in_LlamaIndex_and_Gemini.ipynb)</b>
-
+   <br><br>
   - <b>[Advanced PDF Retrieval and Optimization with LlamaIndex](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Advanced_PDF_Retrieval_and_Optimization_with_LlamaIndex.ipynb)</b>
     - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/sample_contract.pdf)
-
+   <br><br>
   - <b>[Build And Optimize A RAG Pipeline For Document Retrieval](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Build_and_Optimize_a_RAG_Pipeline_for_Document_Retrieval.ipynb)</b>
-    - <i>Review Data</i>: [HERE]()
+    - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/LenderFeesWorksheetNew.pdf)
