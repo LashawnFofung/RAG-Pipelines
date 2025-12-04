@@ -42,4 +42,4 @@ The foundational concepts to building a fully functional RAG application:
     - <i>Review Demo<i>: [HERE](https://youtu.be/e0FKElg2wrU)
    
   - <b>[Comparing Open-Source Embedding Models for RAG](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Comparing_Open_Source_Embedding_Models_for_RAG.ipynb)</b>
-    - <i>Review Data</i>: [HERE]()
+    - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/sample_contract.pdf)
