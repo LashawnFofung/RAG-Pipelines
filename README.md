@@ -39,7 +39,7 @@ The foundational concepts to building a fully functional RAG application:
   
   - <b>[Optimized RAG Pipeline with Interactive RAG Chatbot for Document Retrieval](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Optimized_RAG_Pipeline_with_An_Interactive_RAG_Chatbot_for_Document_Retrieval.ipynb)</b>
     - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/LenderFeesWorksheetNew.pdf)
-    - <i>Review Demo<i>: [HERE](https://youtu.be/e0FKElg2wrU)
+    - <i>Review Demo</i>: [HERE](https://youtu.be/e0FKElg2wrU)
   <br><br>
   
   - <b>[Comparing Open-Source Embedding Models for RAG](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Comparing_Open_Source_Embedding_Models_for_RAG.ipynb)</b>
