@@ -50,6 +50,6 @@ The foundational concepts to building a fully functional RAG application:
     - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/sample_contract.pdf)
   <br><br>
 
-  - <b>[LLM Evaluation for RAG](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_LLM_Evaluation_for_RAG.ipynb)
+  - <b>[LLM Evaluation for RAG](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_LLM_Evaluation_for_RAG.ipynb)</b>
     - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/sample_contract.pdf)
   <br><br>
