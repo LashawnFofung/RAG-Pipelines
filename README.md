@@ -63,7 +63,15 @@ The foundational concepts to building a fully functional RAG application:
   <br><br>
 
   - <b>[Routing Queries](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Route_Queries.ipynb)</b>
-    - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/PayStatement-Nov_1__2024.pdf)
+    - <i>Review Data</i>:
+      -  [Pay Statement](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/PayStatement-Nov_1__2024.pdf)
+      -  [COE Sample](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/COE-Sample.pdf)
+      -  [Lender Fees Worksheet](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/LenderFeesWorksheetNew.pdf)
+      -  [Sample Contract](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/SampleContract-Shuttle.pdf)
+      -  [Functional Sample](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/functionalsample.pdf)
+      -  [Pay Slip 1752803610](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/payslip-1752803610.pdf)
+      -  [PaySlip 1752804713](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/payslip-1752804713.pdf)
+      -  [Sample Contract](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/sample_contract.pdf)
   <br><br>
 
   
