@@ -63,7 +63,7 @@ The foundational concepts to building a fully functional RAG application:
   <br><br>
 
   - <b>[Routing Queries](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Route_Queries.ipynb)</b>
-    - <i>Review Data</i>: [HERE]()
+    - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/PayStatement-Nov_1__2024.pdf)
   <br><br>
 
   
