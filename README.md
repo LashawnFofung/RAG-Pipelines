@@ -58,7 +58,7 @@ The foundational concepts to building a fully functional RAG application:
     - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/Blob%20File%20Sample.pdf)
   <br><br>
 
-  - <b>[Tagging Chunks with Metadata in LlamaIndex](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Tagging_Chunks_with_Metadatab_in_LlamaIndex.ipynb)</b>
+  - <b>[Tagging Chunks with Metadata in LlamaIndex](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Tagging_Chunks_with_Metadata_in_LlamaIndex.ipynb)</b>
     - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/Blob%20File%20Sample.pdf)
   <br><br>
 
