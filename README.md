@@ -74,5 +74,7 @@ The foundational concepts to building a fully functional RAG application:
       -  [Sample Contract](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/sample_contract.pdf)
   <br><br>
 
-  
-  
+  - <b>[End-to-End RAG Pipeline with Page-Level ](  https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_End_to_End_RAG_Pipeline_with_Page_Level.ipynb)</b>
+    - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/Blob%20File%20Sample.pdf)
+  <br><br>
+
