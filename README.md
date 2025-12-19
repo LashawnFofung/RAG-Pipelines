@@ -102,3 +102,12 @@ The foundational concepts to building a fully functional RAG application:
   - <b>[Gradio Chatbot with Lite RAG Implementation ](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/Gradio/Task_Gradio_Chatbot_with_Lite_RAG_Implementation.ipynb)</b>
 
 <br>
+
+##
+
+## RAG & Gradio (Interactive Chatbot)
+
+   - <b>[Full RAG Pipeline with Interactive Gradio Chatbot](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/Gradio/Task_Full_RAG_Pipeline_with_Interactive_Gradio_Chatbot.ipynb)</b>
+
+<br>
+
