@@ -99,6 +99,6 @@ The foundational concepts to building a fully functional RAG application:
 
 <br>
 
-  - <b>[Gradio Chatbot ](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/Gradio/Task_Gradio_Chatbot.ipynb)</b>
+  - <b>[Gradio Chatbot ](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/Gradio/Task_Gradio_Chatbot_without_RAG.ipynb)</b>
 
 <br>
