@@ -1,5 +1,5 @@
 # AI-Powered Document Automation Platform: A RAG Journey 🚀
-This repository documents my technical evolution from writing basic LLM prompts to engineering a production-ready **Retrieval-Augmented Generation (RAG)** Proof of Concept (PoC). Each folder and notebook represents a critical milestone in mastering LlamaIndex, open-source model deployment, and intelligent document orchestration.
+This repository documents my technical evolution from writing basic LLM prompts to engineering a production-ready **Retrieval-Augmented Generation (RAG)** Proof of Concept (PoC). Each folder and notebook represents a critical milestone in mastering **LlamaIndex**, open-source model deployment, and intelligent document orchestration.
 
 ##
 
