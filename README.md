@@ -92,13 +92,25 @@ The foundational concepts to building a fully functional RAG application:
 
   - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/Blob%20File%20Sample.pdf)
 
-- Task: Routing Queries
+- <b>[Routing Queries](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Route_Queries.ipynb)</b>
 
   - <i>Core Logic:</i> Building a "Router" to automatically direct questions to specific document types.
 
-- Task: End-to-End RAG Pipeline with Page-Level Detection
+  - <i>Review Data</i>:
+      -  [Pay Statement](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/PayStatement-Nov_1__2024.pdf)
+      -  [COE Sample](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/COE-Sample.pdf)
+      -  [Lender Fees Worksheet](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/LenderFeesWorksheetNew.pdf)
+      -  [Sample Contract](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/SampleContract-Shuttle.pdf)
+      -  [Functional Sample](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/functionalsample.pdf)
+      -  [Pay Slip 1752803610](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/payslip-1752803610.pdf)
+      -  [PaySlip 1752804713](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/payslip-1752804713.pdf)
+      -  [Sample Contract](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/sample_contract.pdf)
+
+- <b>[End-to-End RAG Pipeline with Page-Level ](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_End_to_End_RAG_Pipeline_with_Page_Level.ipynb)</b>
 
   - <i>Core Logic:</i> Finalizing the back-end architecture for multi-document stream processing.
+
+  - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/Blob%20File%20Sample.pdf)
 
 <br>
 
@@ -163,25 +175,6 @@ The foundational concepts to building a fully functional RAG application:
 
 ## 🖥 DELIVERABLES
 
-
-  - <b>[RAG with Open-Source Model: Mistral 7B](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_RAG_with_Open_Source_Model_Mistral_7B.ipynb)</b>
-    - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/sample_contract.pdf)
-  <br><br>
-
-  - <b>[LLM Evaluation for RAG](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_LLM_Evaluation_for_RAG.ipynb)</b>
-    - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/sample_contract.pdf)
-  
-  <br>
-
-  - <b>[Designing A Page-Level Detection Strategy Using RAG](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Designing_a_Page_Level_Detection_Strategy_Using_RAG.ipynb)</b>
-    - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/Blob%20File%20Sample.pdf)
-  
-  <br>
-
-  - <b>[Tagging Chunks with Metadata in LlamaIndex](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Tagging_Chunks_with_Metadata_in_LlamaIndex.ipynb)</b>
-    - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/Blob%20File%20Sample.pdf)
-  
-  <br>
 
   - <b>[Routing Queries](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Route_Queries.ipynb)</b>
     - <i>Review Data</i>:
