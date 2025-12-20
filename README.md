@@ -19,47 +19,97 @@ The foundational concepts to building a fully functional RAG application:
 
 ## 🗺️ The Development Roadmap
 
-### **Phase 1: Foundations of Chat & Retrieval**
+### **Phase 1: Foundations of LLM & RAG 🏗️**
+<i>Focus: Establishing basic interaction, initial RAG logic, and environment setup.</i>
 
-The journey began with establishing the core communication loop between user and machine.
+- Task: Simple Chatbot with LlamaIndex
+  
+  - Core Logic: Configuring the LLM engine (LlamaIndex + Gemini) for basic chat loops.
+  
+  - Demo: Watch Here
 
-- <b>The LLM Engine:</b> Initialized the project by connecting **LlamaIndex** with **Google Gemini** to build a basic interactive chatbot.
+- Task: Build And Optimize A RAG Pipeline For Document Retrieval
 
-- <b>The Science of Context:</b> Moved beyond simple prompts to optimize **Chunking and Embeddings**. I experimented with how breaking text into meaningful "shards" directly impacts the AI's ability to recall facts accurately.
-
-- <b>Benchmarking Embeddings:</b> Conducted a head-to-head comparison of open-source embedding models (like `all-MiniLM-L6-v2`) to find the perfect balance between retrieval speed and semantic accuracy.
-
-<br>
-
-### **Phase 2: Document Intelligence & Optimization**
-
-Standard RAG fails on complex files. Phase 2 focused on "cleaning" the lens through which the AI sees documents.
-
-- <b>Advanced PDF Handling:</b> Implemented Hybrid Retrieval (combining keywords and vectors) and Reranking to ensure the most relevant context always floats to the top.
-
-- <b>Metadata Routing:</b> Developed a system to tag chunks with attributes like page_number and doc_type.
-
-- <b>The Intelligent Librarian:</b> Built a Routing Engine that uses Gemini to classify a user's intent first (e.g., "This is a salary question"), then searches only relevant sub-indices (e.g., "Pay Stubs"), drastically reducing hallucinations.
+  - Core Logic: Moving from simple chat to basic document-grounded answers using local data.
 
 <br>
 
-### Phase 3: The Open-Source Pivot 🔓
 
-To ensure data privacy and cost-efficiency, I transitioned the architecture to run entirely on local/open-source hardware.
+### **Phase 2: Retrieval Science & Benchmarking 🧪**
+<i>Focus: Optimizing how data is processed, stored, and retrieved.</i>
 
-- <b>Local GGUF Deployment:</b> Loaded Mistral 7B Instruct within Google Colab using GGUF format and CUDA acceleration, achieving high-performance inference without external API keys.
+- Task: RAG Optimization: Implementing Chunking & Embeddings
 
-- <b>LLM Evaluation:</b> A systematic "battle royale" between Gemini, Mistral 7B, Microsoft Phi-2, and TinyLlama, evaluating them on factual accuracy and latency within a mortgage contract domain.
+  - Core Logic: Evaluating how various chunk sizes and embedding strategies impact accuracy.
+
+- Task: Comparing Open-Source Embedding Models for RAG
+
+  - Core Logic: Systematic comparison of open-source vs. proprietary embeddings for domain-specific tasks.
+
+- Task: Advanced PDF Retrieval and Optimization
+
+  - Core Logic: Implementing query expansion and hybrid search for complex PDF layouts.
+
+- Task: Optimized RAG Pipeline with Interactive Chatbot
+
+  - Core Logic: Integrating PyMuPDF and HuggingFace embeddings for high-speed retrieval.
+  
+  - Demo: Watch Here
 
 <br>
 
-### Phase 4: Final Deliverable - "Deepsite Intelligence" 🏢
+### **Phase 3: Intelligent Routing & Privacy 🔓**
+<i>Focus: Managing multi-document "blobs," metadata, and local open-source deployment.</i>
 
-The culmination of the journey: a unified AI-Powered Document Automation Platform.
+Task: RAG with Open-Source Model: Mistral 7B
 
-- <b>Multi-Stage Pipeline:</b> Integrated OCR (OpenCV), multithreaded ingestion (ThreadPoolExecutor), and semantic routing into a single workflow.
+Core Logic: Transitioning to self-contained, local GGUF models on GPU to ensure data privacy.
 
-- <b>Enterprise UI:</b> Designed a custom-branded Gradio interface allowing users to upload multi-page "document blobs" and receive answers with page-level source attribution.
+Task: LLM Evaluation for RAG
+
+Core Logic: Comparative accuracy testing across Gemini, Mistral, Phi-2, and TinyLlama.
+
+Task: Designing A Page-Level Detection Strategy
+
+Core Logic: Developing the logic to separate and classify different documents inside a single PDF.
+
+Task: Tagging Chunks with Metadata
+
+Core Logic: Enhancing retrieval precision through document attributes (page number, doc type).
+
+Task: Routing Queries
+
+Core Logic: Building a "Router" to automatically direct questions to specific document types.
+
+Task: End-to-End RAG Pipeline with Page-Level Detection
+
+Core Logic: Finalizing the back-end architecture for multi-document stream processing.
+
+<br>
+
+### **Phase 4: UI Development & Lite Implementation 🎨**
+Focus: Creating user-friendly interfaces for research and deployment.
+
+Task: Intro To Gradio
+
+Core Logic: Learning to map Python functions to web-based UI components.
+
+Task: Gradio Chatbot with Lite RAG Implementation
+
+Core Logic: Creating a minimalist workspace for high-speed indexing and keyword-based retrieval.
+
+<br>
+
+### **Phase 5: Production PoC Deliverable 🏆**
+Focus: Integrating all modules into a unified, enterprise-grade platform.
+
+Task: Full RAG Pipeline with Interactive Gradio Chatbot
+
+Core Logic: Merging the high-performance retrieval back-end with the interactive Gradio front-end.
+
+POC: AI-Powered Document Automation Platform
+
+The Final Deliverable: A complete system featuring parallel ingestion, computer vision preprocessing, and semantic routing for complex document portfolios.
 
 <br>
 
@@ -78,7 +128,23 @@ The culmination of the journey: a unified AI-Powered Document Automation Platfor
 
 - <b>Processing:</b> PyMuPDF, OpenCV, Multithreading
 
+<br>
+
 ##
+
+## 🎯 Final POC Feature Highlights
+|Feature | Technical Solution | Benefit |
+| ---| ---| ---| 
+| Context Isolation | Semantic Routing via Gemini | Prevents "Context Contamination" from irrelevant docs. |
+| High-Speed Ingestion | Parallel ThreadPool Processing | 5x faster parsing of 100+ page documents. |
+| Source Trust | Metadata Tagging & Citations | Real-time source badges for every AI response. |
+| Open-Source Ready | GGUF & LlamaCPP Integration | Zero-cost, private deployment options. |
+
+<br>
+
+##
+
+
 
 ## 🖥 DELIVERABLES
 
