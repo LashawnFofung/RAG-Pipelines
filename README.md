@@ -171,31 +171,4 @@ The foundational concepts to building a fully functional RAG application:
 
 ##
 
-
-
-## 🖥 DELIVERABLES
-
-
-  
-##
-
-## Gradio (Interactive Chatbot)
-   - <b>[Intro To Gradio ](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/Gradio/Task_Intro_to_Gradio.ipynb)</b>
-
-<br>
-
-  - <b>[Gradio Chatbot with Lite RAG Implementation ](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/Gradio/Task_Gradio_Chatbot_with_Lite_RAG_Implementation.ipynb)</b>
-
-<br>
-
-##
-
-## RAG & Gradio (Interactive Chatbot)
-
-   - <b>[Full RAG Pipeline with Interactive Gradio Chatbot](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/Gradio/Task_Full_RAG_Pipeline_with_Interactive_Gradio_Chatbot.ipynb)</b>
-
-<br>
-
-  - <b>[POC - AI-Powered Document Automation Platform](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/POC/Task_Enhanced_Document_Q%26A_System_with_Intelligent_RAG_Pipeline.ipynb)</b>
-
 <br>
