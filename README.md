@@ -1,11 +1,5 @@
-# Retrieval Augumented Generation (RAG) Pipelines
-This repository provides a comprehensive, hands-on guide to building a Retrieval-Augmented Generation (RAG) pipeline.  RAG is a critical architecture for grounding Large Language Models (LLMs) with external, up-to-date, or private knowledge bases, effectively turning a generic AI into an expert on your specific data.
-
-##
-
-## 💡 Project Focus
-
-The core of this project is using LlamaIndex—a powerful data framework designed to connect LLMs to external data—to create a high-performance, domain-specific AI chatbot.
+# AI-Powered Document Automation Platform: A RAG Journey 🚀
+This repository documents my technical evolution from writing basic LLM prompts to engineering a production-ready **Retrieval-Augmented Generation (RAG)** Proof of Concept (PoC). Each folder and notebook represents a critical milestone in mastering LlamaIndex, open-source model deployment, and intelligent document orchestration.
 
 ##
 
@@ -20,6 +14,69 @@ The foundational concepts to building a fully functional RAG application:
   - <b>Model Integration:</b> Practice integrating open-source Large Language Models (LLMs) into the RAG workflow.
 
   - <b>Practical Application:</b> Build a functional, simple chatbot that uses the RAG pipeline to retrieve and synthesize relevant data for accurate, context-aware responses.
+
+##
+
+## 🗺️ The Development Roadmap
+
+### **Phase 1: Foundations of Chat & Retrieval**
+
+The journey began with establishing the core communication loop between user and machine.
+
+- <b>The LLM Engine:</b> Initialized the project by connecting **LlamaIndex** with **Google Gemini** to build a basic interactive chatbot.
+
+- <b>The Science of Context:</b> Moved beyond simple prompts to optimize **Chunking and Embeddings**. I experimented with how breaking text into meaningful "shards" directly impacts the AI's ability to recall facts accurately.
+
+- <b>Benchmarking Embeddings:</b> Conducted a head-to-head comparison of open-source embedding models (like `all-MiniLM-L6-v2`) to find the perfect balance between retrieval speed and semantic accuracy.
+
+<br>
+
+### **Phase 2: Document Intelligence & Optimization**
+
+Standard RAG fails on complex files. Phase 2 focused on "cleaning" the lens through which the AI sees documents.
+
+- <b>Advanced PDF Handling:</b> Implemented Hybrid Retrieval (combining keywords and vectors) and Reranking to ensure the most relevant context always floats to the top.
+
+- <b>Metadata Routing:</b> Developed a system to tag chunks with attributes like page_number and doc_type.
+
+- <b>The Intelligent Librarian:</b> Built a Routing Engine that uses Gemini to classify a user's intent first (e.g., "This is a salary question"), then searches only relevant sub-indices (e.g., "Pay Stubs"), drastically reducing hallucinations.
+
+<br>
+
+### Phase 3: The Open-Source Pivot 🔓
+
+To ensure data privacy and cost-efficiency, I transitioned the architecture to run entirely on local/open-source hardware.
+
+- <b>Local GGUF Deployment:</b> Loaded Mistral 7B Instruct within Google Colab using GGUF format and CUDA acceleration, achieving high-performance inference without external API keys.
+
+- <b>LLM Evaluation:</b> A systematic "battle royale" between Gemini, Mistral 7B, Microsoft Phi-2, and TinyLlama, evaluating them on factual accuracy and latency within a mortgage contract domain.
+
+<br>
+
+### Phase 4: Final Deliverable - "Deepsite Intelligence" 🏢
+
+The culmination of the journey: a unified AI-Powered Document Automation Platform.
+
+- <b>Multi-Stage Pipeline:</b> Integrated OCR (OpenCV), multithreaded ingestion (ThreadPoolExecutor), and semantic routing into a single workflow.
+
+- <b>Enterprise UI:</b> Designed a custom-branded Gradio interface allowing users to upload multi-page "document blobs" and receive answers with page-level source attribution.
+
+<br>
+
+##
+
+## 🛠️ Tech Stack & Skills
+- <b>Orchestration:</b> LlamaIndex
+
+- <b>Models:</b> Google Gemini, Mistral 7B (Local), Phi-2, TinyLlama
+
+- <b>Vector DB/Indices:</b> FAISS, VectorStoreIndex
+
+- <b>Embeddings:</b> BGE, HuggingFace Transformers
+
+- <b>UI/UX:</b> Gradio 5.x
+
+- <b>Processing:</b> PyMuPDF, OpenCV, Multithreading
 
 ##
 
