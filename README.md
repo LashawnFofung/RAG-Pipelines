@@ -22,11 +22,11 @@ The foundational concepts to building a fully functional RAG application:
 ### **Phase 1: Foundations of LLM & RAG 🏗️**
 <i>Focus: Establishing basic interaction, initial RAG logic, and environment setup.</i>
 
-- Task: Simple Chatbot with LlamaIndex
+- <b>[Simple Chatbot with LlamaIndex CoLab Notebook](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Build_a_Simple_Chatbot_with_LlamaIndex.ipynb)</b>
   
   - Core Logic: Configuring the LLM engine (LlamaIndex + Gemini) for basic chat loops.
   
-  - Demo: Watch Here
+  - Review Demo</i>: [WATCH HERE](https://youtu.be/FFb6gzT8rfo)
 
 - Task: Build And Optimize A RAG Pipeline For Document Retrieval
 
@@ -61,55 +61,55 @@ The foundational concepts to building a fully functional RAG application:
 ### **Phase 3: Intelligent Routing & Privacy 🔓**
 <i>Focus: Managing multi-document "blobs," metadata, and local open-source deployment.</i>
 
-Task: RAG with Open-Source Model: Mistral 7B
+- Task: RAG with Open-Source Model: Mistral 7B
 
-Core Logic: Transitioning to self-contained, local GGUF models on GPU to ensure data privacy.
+  - Core Logic: Transitioning to self-contained, local GGUF models on GPU to ensure data privacy.
 
-Task: LLM Evaluation for RAG
+- Task: LLM Evaluation for RAG
 
-Core Logic: Comparative accuracy testing across Gemini, Mistral, Phi-2, and TinyLlama.
+  - Core Logic: Comparative accuracy testing across Gemini, Mistral, Phi-2, and TinyLlama.
 
-Task: Designing A Page-Level Detection Strategy
+- Task: Designing A Page-Level Detection Strategy
 
-Core Logic: Developing the logic to separate and classify different documents inside a single PDF.
+  - Core Logic: Developing the logic to separate and classify different documents inside a single PDF.
 
-Task: Tagging Chunks with Metadata
+- Task: Tagging Chunks with Metadata
 
-Core Logic: Enhancing retrieval precision through document attributes (page number, doc type).
+  - Core Logic: Enhancing retrieval precision through document attributes (page number, doc type).
 
-Task: Routing Queries
+- Task: Routing Queries
 
-Core Logic: Building a "Router" to automatically direct questions to specific document types.
+  - Core Logic: Building a "Router" to automatically direct questions to specific document types.
 
-Task: End-to-End RAG Pipeline with Page-Level Detection
+- Task: End-to-End RAG Pipeline with Page-Level Detection
 
-Core Logic: Finalizing the back-end architecture for multi-document stream processing.
+  - Core Logic: Finalizing the back-end architecture for multi-document stream processing.
 
 <br>
 
 ### **Phase 4: UI Development & Lite Implementation 🎨**
-Focus: Creating user-friendly interfaces for research and deployment.
+<i>Focus: Creating user-friendly interfaces for research and deployment.</i>
 
-Task: Intro To Gradio
+- Task: Intro To Gradio
 
-Core Logic: Learning to map Python functions to web-based UI components.
+  - Core Logic: Learning to map Python functions to web-based UI components.
 
-Task: Gradio Chatbot with Lite RAG Implementation
+- Task: Gradio Chatbot with Lite RAG Implementation
 
-Core Logic: Creating a minimalist workspace for high-speed indexing and keyword-based retrieval.
+  - Core Logic: Creating a minimalist workspace for high-speed indexing and keyword-based retrieval.
 
 <br>
 
 ### **Phase 5: Production PoC Deliverable 🏆**
-Focus: Integrating all modules into a unified, enterprise-grade platform.
+<i>Focus: Integrating all modules into a unified, enterprise-grade platform.</i>
 
-Task: Full RAG Pipeline with Interactive Gradio Chatbot
+- Task: Full RAG Pipeline with Interactive Gradio Chatbot
 
-Core Logic: Merging the high-performance retrieval back-end with the interactive Gradio front-end.
+  - Core Logic: Merging the high-performance retrieval back-end with the interactive Gradio front-end.
 
-POC: AI-Powered Document Automation Platform
+- POC: AI-Powered Document Automation Platform
 
-The Final Deliverable: A complete system featuring parallel ingestion, computer vision preprocessing, and semantic routing for complex document portfolios.
+  - The Final Deliverable: A complete system featuring parallel ingestion, computer vision preprocessing, and semantic routing for complex document portfolios.
 
 <br>
 
