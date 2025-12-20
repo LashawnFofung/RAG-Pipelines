@@ -70,7 +70,7 @@ The foundational concepts to building a fully functional RAG application:
 
 - <b>[RAG with Open-Source Model: Mistral 7B](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_RAG_with_Open_Source_Model_Mistral_7B.ipynb)</b>
 
-  - <i>Core Logic: Transitioning to self-contained, local GGUF models on GPU to ensure data privacy.
+  - <i>Core Logic:</i> Transitioning to self-contained, local GGUF models on GPU to ensure data privacy.
 
   - <i>Review Data:</i> [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/sample_contract.pdf)
 
@@ -90,13 +90,13 @@ The foundational concepts to building a fully functional RAG application:
 
   - <i>Core Logic:</i> Enhancing retrieval precision through document attributes (page number, doc type).
 
-  - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/Blob%20File%20Sample.pdf)
+  - <i>Review Data:</i> [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/Blob%20File%20Sample.pdf)
 
 - <b>[Routing Queries](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Route_Queries.ipynb)</b>
 
   - <i>Core Logic:</i> Building a "Router" to automatically direct questions to specific document types.
 
-  - <i>Review Data</i>:
+  - <i>Review Data:</i>
       -  [Pay Statement](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/PayStatement-Nov_1__2024.pdf)
       -  [COE Sample](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/COE-Sample.pdf)
       -  [Lender Fees Worksheet](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/LenderFeesWorksheetNew.pdf)
@@ -106,37 +106,37 @@ The foundational concepts to building a fully functional RAG application:
       -  [PaySlip 1752804713](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/payslip-1752804713.pdf)
       -  [Sample Contract](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/sample_contract.pdf)
 
-- <b>[End-to-End RAG Pipeline with Page-Level ](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_End_to_End_RAG_Pipeline_with_Page_Level.ipynb)</b>
+- <b>[End-to-End RAG Pipeline with Page-Level](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_End_to_End_RAG_Pipeline_with_Page_Level.ipynb)</b>
 
   - <i>Core Logic:</i> Finalizing the back-end architecture for multi-document stream processing.
 
-  - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/Blob%20File%20Sample.pdf)
+  - <i>Review Data:</i> [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/Blob%20File%20Sample.pdf)
 
 <br>
 
 ### **Phase 4: UI Development & Lite Implementation 🎨**
 <i>Focus: Creating user-friendly interfaces for research and deployment.</i>
 
-- Task: Intro To Gradio
+- <b>[Intro To Gradio](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/Gradio/Task_Intro_to_Gradio.ipynb)</b>
 
-  - Core Logic: Learning to map Python functions to web-based UI components.
+  - <i>Core Logic:</i> Learning to map Python functions to web-based UI components.
 
-- Task: Gradio Chatbot with Lite RAG Implementation
+- <b>[Gradio Chatbot with Lite RAG Implementation](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/Gradio/Task_Gradio_Chatbot_with_Lite_RAG_Implementation.ipynb)</b>
 
-  - Core Logic: Creating a minimalist workspace for high-speed indexing and keyword-based retrieval.
+  - <i>Core Logic:</i> Creating a minimalist workspace for high-speed indexing and keyword-based retrieval.
 
 <br>
 
 ### **Phase 5: Production PoC Deliverable 🏆**
 <i>Focus: Integrating all modules into a unified, enterprise-grade platform.</i>
 
-- Task: Full RAG Pipeline with Interactive Gradio Chatbot
+- <b>[Full RAG Pipeline with Interactive Gradio Chatbot](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/Gradio/Task_Full_RAG_Pipeline_with_Interactive_Gradio_Chatbot.ipynb)</b>
 
-  - Core Logic: Merging the high-performance retrieval back-end with the interactive Gradio front-end.
+  - <i>Core Logic:</i> Merging the high-performance retrieval back-end with the interactive Gradio front-end.
 
-- POC: AI-Powered Document Automation Platform
+- <b>[POC - AI-Powered Document Automation Platform](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/POC/Task_Enhanced_Document_Q%26A_System_with_Intelligent_RAG_Pipeline.ipynb)</b>
 
-  - The Final Deliverable: A complete system featuring parallel ingestion, computer vision preprocessing, and semantic routing for complex document portfolios.
+  - <i>The Final Deliverable:</i> A complete system featuring parallel ingestion, computer vision preprocessing, and semantic routing for complex document portfolios.
 
 <br>
 
@@ -176,24 +176,7 @@ The foundational concepts to building a fully functional RAG application:
 ## 🖥 DELIVERABLES
 
 
-  - <b>[Routing Queries](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Route_Queries.ipynb)</b>
-    - <i>Review Data</i>:
-      -  [Pay Statement](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/PayStatement-Nov_1__2024.pdf)
-      -  [COE Sample](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/COE-Sample.pdf)
-      -  [Lender Fees Worksheet](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/LenderFeesWorksheetNew.pdf)
-      -  [Sample Contract](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/SampleContract-Shuttle.pdf)
-      -  [Functional Sample](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/functionalsample.pdf)
-      -  [Pay Slip 1752803610](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/payslip-1752803610.pdf)
-      -  [PaySlip 1752804713](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/payslip-1752804713.pdf)
-      -  [Sample Contract](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/sample_contract.pdf)
   
-  <br>
-
-  - <b>[End-to-End RAG Pipeline with Page-Level ](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_End_to_End_RAG_Pipeline_with_Page_Level.ipynb)</b>
-    - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/Blob%20File%20Sample.pdf)
-  
-  <br>
-
 ##
 
 ## Gradio (Interactive Chatbot)
