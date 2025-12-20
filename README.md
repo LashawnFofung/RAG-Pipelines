@@ -38,23 +38,25 @@ The foundational concepts to building a fully functional RAG application:
 ### **Phase 2: Retrieval Science & Benchmarking 🧪**
 <i>Focus: Optimizing how data is processed, stored, and retrieved.</i>
 
-- Task: RAG Optimization: Implementing Chunking & Embeddings
+- <b>[RAG Optimization: Implementing Chunking & Embeddings in LlamaIndex and Gemini](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Implementing_Chunking_and_Embeddings_in_LlamaIndex_and_Gemini.ipynb)</b>
 
-  - Core Logic: Evaluating how various chunk sizes and embedding strategies impact accuracy.
+  - <i>Core Logic:</i> Evaluating how various chunk sizes and embedding strategies impact accuracy.
 
-- Task: Comparing Open-Source Embedding Models for RAG
+- <b>[Comparing Open-Source Embedding Models for RAG](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Comparing_Open_Source_Embedding_Models_for_RAG.ipynb)</b>
 
-  - Core Logic: Systematic comparison of open-source vs. proprietary embeddings for domain-specific tasks.
+  - <i>Core Logic:</i> Systematic comparison of open-source vs. proprietary embeddings for domain-specific tasks.
+  - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/sample_contract.pdf)
 
-- Task: Advanced PDF Retrieval and Optimization
+- <b>[Advanced PDF Retrieval and Optimization with LlamaIndex](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Advanced_PDF_Retrieval_and_Optimization_with_LlamaIndex.ipynb)</b>
 
-  - Core Logic: Implementing query expansion and hybrid search for complex PDF layouts.
+  - <i>Core Logic:</i> Implementing query expansion and hybrid search for complex PDF layouts.
+  - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/sample_contract.pdf)
 
 - Task: Optimized RAG Pipeline with Interactive Chatbot
 
-  - Core Logic: Integrating PyMuPDF and HuggingFace embeddings for high-speed retrieval.
+  - <i>Core Logic:</i> Integrating PyMuPDF and HuggingFace embeddings for high-speed retrieval.
   
-  - Demo: Watch Here
+  - <i>Review Demo:</i> Watch Here
 
 <br>
 
