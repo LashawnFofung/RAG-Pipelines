@@ -26,11 +26,12 @@ The foundational concepts to building a fully functional RAG application:
   
   - <i>Core Logic:</i> Configuring the LLM engine (LlamaIndex + Gemini) for basic chat loops.
   
-  - <i>Review Demo</i>: [WATCH HERE](https://youtu.be/FFb6gzT8rfo)
+  - <i>Review Demo:</i> [WATCH HERE](https://youtu.be/FFb6gzT8rfo)
 
 - <b>[Build And Optimize A RAG Pipeline For Document Retrieval](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Build_and_Optimize_a_RAG_Pipeline_for_Document_Retrieval.ipynb)</b>
 
-  - Core Logic: Moving from simple chat to basic document-grounded answers using local data.
+  - <i>Core Logic:</i> Moving from simple chat to basic document-grounded answers using local data.
+
   - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/LenderFeesWorksheetNew.pdf)
 
 <br>
@@ -45,47 +46,59 @@ The foundational concepts to building a fully functional RAG application:
 - <b>[Comparing Open-Source Embedding Models for RAG](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Comparing_Open_Source_Embedding_Models_for_RAG.ipynb)</b>
 
   - <i>Core Logic:</i> Systematic comparison of open-source vs. proprietary embeddings for domain-specific tasks.
-  - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/sample_contract.pdf)
+
+  - <i>Review Data:</i> [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/sample_contract.pdf)
 
 - <b>[Advanced PDF Retrieval and Optimization with LlamaIndex](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Advanced_PDF_Retrieval_and_Optimization_with_LlamaIndex.ipynb)</b>
 
   - <i>Core Logic:</i> Implementing query expansion and hybrid search for complex PDF layouts.
+
   - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/sample_contract.pdf)
 
-- Task: Optimized RAG Pipeline with Interactive Chatbot
+- <b>[Optimized RAG Pipeline with Interactive RAG Chatbot for Document Retrieval](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Optimized_RAG_Pipeline_with_An_Interactive_RAG_Chatbot_for_Document_Retrieval.ipynb)</b>
 
   - <i>Core Logic:</i> Integrating PyMuPDF and HuggingFace embeddings for high-speed retrieval.
-  
-  - <i>Review Demo:</i> Watch Here
+
+  - <i>Review Data:</i> [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/LenderFeesWorksheetNew.pdf)
+
+  - <i>Review Demo:</i> [WATCH HERE](https://youtu.be/e0FKElg2wrU)
 
 <br>
 
 ### **Phase 3: Intelligent Routing & Privacy 🔓**
 <i>Focus: Managing multi-document "blobs," metadata, and local open-source deployment.</i>
 
-- Task: RAG with Open-Source Model: Mistral 7B
+- <b>[RAG with Open-Source Model: Mistral 7B](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_RAG_with_Open_Source_Model_Mistral_7B.ipynb)</b>
 
-  - Core Logic: Transitioning to self-contained, local GGUF models on GPU to ensure data privacy.
+  - <i>Core Logic: Transitioning to self-contained, local GGUF models on GPU to ensure data privacy.
 
-- Task: LLM Evaluation for RAG
+  - <i>Review Data:</i> [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/sample_contract.pdf)
 
-  - Core Logic: Comparative accuracy testing across Gemini, Mistral, Phi-2, and TinyLlama.
+- <b>[LLM Evaluation for RAG](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_LLM_Evaluation_for_RAG.ipynb)</b>
 
-- Task: Designing A Page-Level Detection Strategy
+  - <i>Core Logic:</i> Comparative accuracy testing across Gemini, Mistral, Phi-2, and TinyLlama.
 
-  - Core Logic: Developing the logic to separate and classify different documents inside a single PDF.
+  - <i>Review Data:</i> [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/sample_contract.pdf)
 
-- Task: Tagging Chunks with Metadata
+- <b>[Designing A Page-Level Detection Strategy Using RAG](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Designing_a_Page_Level_Detection_Strategy_Using_RAG.ipynb)</b>
 
-  - Core Logic: Enhancing retrieval precision through document attributes (page number, doc type).
+  - <i>Core Logic:</i> Developing the logic to separate and classify different documents inside a single PDF.
+
+  - <i>Review Data:</i> [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/Blob%20File%20Sample.pdf)
+
+- <b>[Tagging Chunks with Metadata in LlamaIndex](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Tagging_Chunks_with_Metadata_in_LlamaIndex.ipynb)</b>
+
+  - <i>Core Logic:</i> Enhancing retrieval precision through document attributes (page number, doc type).
+
+  - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/Blob%20File%20Sample.pdf)
 
 - Task: Routing Queries
 
-  - Core Logic: Building a "Router" to automatically direct questions to specific document types.
+  - <i>Core Logic:</i> Building a "Router" to automatically direct questions to specific document types.
 
 - Task: End-to-End RAG Pipeline with Page-Level Detection
 
-  - Core Logic: Finalizing the back-end architecture for multi-document stream processing.
+  - <i>Core Logic:</i> Finalizing the back-end architecture for multi-document stream processing.
 
 <br>
 
@@ -150,26 +163,6 @@ The foundational concepts to building a fully functional RAG application:
 
 ## 🖥 DELIVERABLES
 
-  
-  - <b>[RAG Optimization: Implementing Chunking & Embeddings in LlamaIndex and Gemini](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Implementing_Chunking_and_Embeddings_in_LlamaIndex_and_Gemini.ipynb)</b>
-
-  <br>
-  
-  - <b>[Advanced PDF Retrieval and Optimization with LlamaIndex](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Advanced_PDF_Retrieval_and_Optimization_with_LlamaIndex.ipynb)</b>
-    - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/sample_contract.pdf)
-  
-  <br>
-  
-  - <b>[Optimized RAG Pipeline with Interactive RAG Chatbot for Document Retrieval](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Optimized_RAG_Pipeline_with_An_Interactive_RAG_Chatbot_for_Document_Retrieval.ipynb)</b>
-    - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/LenderFeesWorksheetNew.pdf)
-    - <i>Review Demo</i>: [HERE](https://youtu.be/e0FKElg2wrU)
-  
-  <br>
-  
-  - <b>[Comparing Open-Source Embedding Models for RAG](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_Comparing_Open_Source_Embedding_Models_for_RAG.ipynb)</b>
-    - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/sample_contract.pdf)
-  
-  <br>
 
   - <b>[RAG with Open-Source Model: Mistral 7B](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/src/Task_RAG_with_Open_Source_Model_Mistral_7B.ipynb)</b>
     - <i>Review Data</i>: [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/data/sample_contract.pdf)
