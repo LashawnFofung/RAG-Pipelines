@@ -137,7 +137,7 @@ The foundational concepts to building a fully functional RAG application:
 - <b>[POC - AI-Powered Document Automation Platform](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/POC/Task_Enhanced_Document_Q%26A_System_with_Intelligent_RAG_Pipeline.ipynb)</b>
 
   - <i>The POC:</i> A complete system featuring parallel ingestion, computer vision preprocessing, and semantic routing for complex document portfolios. To see additional enhancements and final deliverable for AI-Powered Document Intelligence Automation Platform, view repo:
-    - 
+    - [AI-Powered Document Automation Platform](https://github.com/LashawnFofung/AI-Powered-Document-Automation-Platform)
 
 <br>
 
