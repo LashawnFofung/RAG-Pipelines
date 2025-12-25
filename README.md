@@ -132,6 +132,8 @@ The foundational concepts to building a fully functional RAG application:
 
 - <b>[Full RAG Pipeline with Interactive Gradio Chatbot](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/Gradio/Task_Full_RAG_Pipeline_with_Interactive_Gradio_Chatbot.ipynb)</b>
 
+  - <i>View Presentation:</i> [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/Presentation/Full%20RAG%20Pipeline%20with%20Interactive%20Gradio%20Chatbot%20-%20Demo%20and%20Reflection.pdf)
+    
   - <i>Core Logic:</i> Merging the high-performance retrieval back-end with the interactive Gradio front-end.
 
 - <b>[POC - AI-Powered Document Automation Platform](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/POC/Task_Enhanced_Document_Q%26A_System_with_Intelligent_RAG_Pipeline.ipynb)</b>
