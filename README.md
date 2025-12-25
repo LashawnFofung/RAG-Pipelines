@@ -141,7 +141,7 @@ The foundational concepts to building a fully functional RAG application:
   - A complete system featuring parallel ingestion, computer vision preprocessing, and semantic routing for complex document portfolios.
   
   - <i>POC Presentation:</i> [HERE](https://github.com/LashawnFofung/RAG-Pipelines/blob/main/Presentation/AI-Powered%20Document%20Intelligence%20Automation%20Platform%20with%20Gradio%20Chatbot%20-%20Demo%20and%20Reflection.pdf)
-  - <i>View Live:</i> [HERE](https://huggingface.co/spaces/lfofung/AI-Powered-Document-Intelligence-Automation-Platform)
+  - <i>View Web-App:</i> [HERE](https://huggingface.co/spaces/lfofung/AI-Powered-Document-Intelligence-Automation-Platform)
   
   - To see additional enhancements and final deliverable for AI-Powered Document Intelligence Automation Platform, view repo: [AI-Powered Document Automation Platform](https://github.com/LashawnFofung/AI-Powered-Document-Automation-Platform)
 
